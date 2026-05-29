@@ -1,0 +1,8 @@
+This is extension use in browser.
+It's purpose is for people learning English
+Choose any word and the extension will provide its phonetic, English meaning and Vietnamese meaning.
+How to implement this extension
+- Clone this repo
+- Open browser -> Extensions -> Manage Extensions
+- Turn on Developer mode
+- Load unpacked -> choose your cloned repo
