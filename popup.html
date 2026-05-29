@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WordPeek</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h3>WordPeek</h3>
+
+    <div class="setting-row">
+    <span>Enable WordPeek</span>
+
+    <label class="switch">
+        <input type="checkbox" id="enabledToggle" />
+        <span class="slider"></span>
+    </label>
+    </div>
+
+  <hr />
+
+  <label for="displayMode">Display mode</label>
+  <select id="displayMode">
+    <option value="phoneticOnly">Phonetic only</option>
+    <option value="full">Phonetic + English meaning</option>
+    <option value="phoneticVietnamese">Phonetic + Vietnamese meaning</option>
+
+  </select>
+
+  <script src="popup.js"></script>
+</body>
+</html>
